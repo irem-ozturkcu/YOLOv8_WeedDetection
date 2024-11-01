@@ -1,0 +1,6 @@
+train: C:\Users\Asus\Desktop\YOLOv8_WeedDetection\datasets\images\train_augment
+val: C:\Users\Asus\Desktop\YOLOv8_WeedDetection\datasets\images\valid
+test: C:\Users\Asus\Desktop\YOLOv8_WeedDetection\datasets\images\test
+
+nc: 3  # Sınıf sayısı (lettuce, purslane, chenopodium)
+names: ['chenopodium', 'lettuce', 'purslane']  # Sınıf isimleri
